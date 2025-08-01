@@ -27,4 +27,5 @@ similarityScore = firstColumnValues.reduce((total, current) =>
     total + current * (secondColumnValues.filter((secondValue) => secondValue === current).length),
 0);
 
+// `npx tsx day2.ts` to run the script
 console.log("Similarity Score:", similarityScore);
