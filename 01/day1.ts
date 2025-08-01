@@ -1,11 +1,11 @@
 // Day 1 of Advent of Code 2024. Let's go!
 //
-// Typescript time
+// Typescript time!
 //
 // Need to find the difference between both lists.
 //   stored as XXXXX   XXXXX<br> for 1000 rows
-//
 //   first could populate some arrays with these values, so we can compare them
+
 import * as fs from 'fs';
 
 const filePath: string = './day1.txt';
@@ -35,5 +35,5 @@ for (let i = 0; i < firstColumnValues.length; i++) {
     console.log("current diff: ", totalDifference);
 }
 
-// Get #delta element and set its text content to the total difference
+// `npx tsx day1.ts` to run the script
 console.log("Total Delta: ", totalDifference);
